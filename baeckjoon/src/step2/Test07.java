@@ -1,5 +1,6 @@
 package step2;
 import java.util.Scanner;
+//영수증
 public class Test07 {
 	public static void main(String[] args) {
 		

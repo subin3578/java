@@ -25,7 +25,8 @@ public class Test07 {
 			temp =a;
 		}else {
 			temp =b;
-		} //작은 값이 temp로 들어감
+		} 
+		//작은 값이 temp로 들어감
 		
 		while(true) {
 			if(a% temp ==0 && b% temp ==0) {
