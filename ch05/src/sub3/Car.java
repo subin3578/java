@@ -1,4 +1,4 @@
-package sub2;
+package sub3;
 
 //Car이라는 클래스 정의
 public class Car {

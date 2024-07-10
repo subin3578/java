@@ -1,12 +1,13 @@
-package sub2;
+package sub5;
 
 //Car이라는 클래스 정의
 public class Car {
 
 	//속성(멤버 변수) => 무조건 'private' 사용 
-	private String name;
-	private String color;
-	private int speed;
+	//상속관계에서 자식들이 참조(접근)할 수 있도록 'protected'사용
+	protected String name;
+	protected String color;
+	protected int speed;
 	
 	public static int count;
 	
@@ -30,6 +31,14 @@ public class Car {
 		this.color = color;
 	}
 	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
 	//Getter
 	public String getColor() {
 		return color;
@@ -50,5 +59,4 @@ public class Car {
 		System.out.println("현재속도: "+this.speed);
 		
 	}
-	
 }

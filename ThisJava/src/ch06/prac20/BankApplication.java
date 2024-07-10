@@ -1,13 +1,13 @@
-package Test20;
+package ch06.prac20;
 
 import java.util.Scanner;
 
 public class BankApplication {
 	public static Account[] accountArray = new Account[100];
-	Scanner sc = new Scanner(System.in);
+	public static Scanner sc = new Scanner(System.in);
 	
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+
 		
 		while(true) {
 		System.out.println("-----------------------------------");
@@ -133,17 +133,18 @@ public class BankApplication {
 		System.out.println(withdrawbal+"만큼 출금 성공");
 		
 		
-		
-	}
-	 private static Account findAccount(String number) {
+	}	
+	
 
-	        Account account = null; 
+	private static Account findAccount(String number) {
 
-	        for (int i = 0; i < accountArray.length; i++) {
+		Account account = null; 
+
+		for (int i = 0; i < accountArray.length; i++) {
 	        	// 어카운트 값이 비어있지 않으면, 클래스 Account 에서 getNumber을 이용하여 넘버 가져옴
 	        	//입력 받은 값과 저장되어 있는 값이 같으면 그 계좌번호를 return하는 함수
-	            if (accountArray[i] != null) {
-	                String accountNum = accountArray[i].getNumber();
+			if (accountArray[i] != null) {
+				String accountNum = accountArray[i].getNumber();
 	                if (accountNum.equals(number)) {
 	                    account = accountArray[i];
 	                    break;
@@ -152,5 +153,5 @@ public class BankApplication {
 
 	        }
 	        return account;
-	    }
+	}
 }

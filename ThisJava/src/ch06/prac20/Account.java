@@ -1,10 +1,8 @@
-package Test20;
+package ch06.prac20;
 
-import java.util.Scanner;
-
-public class Account {
+ class Account {
 	
-	String number;
+	 String number;
 	 String name;
 	 int balance;
 
