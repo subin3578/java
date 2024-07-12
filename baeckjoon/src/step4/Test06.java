@@ -3,7 +3,7 @@ package step4;
 import java.util.Scanner;
 
 
-public class Test05 {
+public class Test06 {
 
 	public static void main(String[] args) {
 		
@@ -16,13 +16,8 @@ public class Test05 {
 	
 		for(int x=1;x<=M;x++)
 		{
-			int i = sc.nextInt();
-			int j = sc.nextInt();
-			int k = sc.nextInt();
-			
-			for(int y = i-1 ; y<=j-1 ; y ++) {
-				arr[y] = k;
-			}
+			arr[x] = x;
+	
 		}
 		
 		for(int i=0;i<N;i++) {
