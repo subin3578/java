@@ -75,10 +75,14 @@ public class ExceptionTest {
 		////////////////////////////////////
 		
 		try {
+			//예외가 발생할 코
 		Class eagle = Class.forName("sub1.Eagle");
 		
 		}catch (ClassNotFoundException e) {
+			//예외가 발생했을 때 
 			e.printStackTrace();
+		} finally {
+			//예외처리 발생여부와 상관없이 마지막에 항상 실행 
 		}
 		System.out.println("프로그램 종료");
 	}
