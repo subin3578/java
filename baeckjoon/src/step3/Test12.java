@@ -13,7 +13,7 @@ public class Test12{
 	
 		Scanner sc = new Scanner(System.in);
 		
-		while(sc.hasNextInt()) {
+		while(sc.hasNextInt()) { //입력이 안들어올때까지 한다 *****
 			int a = sc.nextInt();
 			int b = sc.nextInt();
 
