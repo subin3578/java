@@ -69,7 +69,17 @@ public class ExceptionTest {
 			
 		}
 	
+
+		/////////////////////////////////////
+		// 일반예외(컴파일타임, 프로그램 실행 발생 예외)
+		////////////////////////////////////
 		
+		try {
+		Class eagle = Class.forName("sub1.Eagle");
+		
+		}catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
 		System.out.println("프로그램 종료");
 	}
 }
