@@ -67,7 +67,7 @@ public class StringTest {
 		double var2 = 3.14;
 		boolean var3 = true;
 		
-		// Static 메서드 = valueOf(직접 참조)
+		// 기본타입 => 문자열 String.valueOf()
 		String s1 =  String.valueOf(var1);
 		String s2 =  String.valueOf(var2);
 		String s3 = ""+var3; // 이렇게도 많이 사용함 ***
