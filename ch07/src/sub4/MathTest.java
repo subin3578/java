@@ -21,7 +21,7 @@ public class MathTest {
 		
 		//random() - ( 0 ~ 1 사이의 실수) 무작위의 수를 만들 때 사용
 		double num1 = Math.random();
-		System.out.println("num1: "+num1); // 0 ~ 1 사이의 실수
+		System.out.println("num1: "+num11); // 0 ~ 1 사이의 실수
 		
 		double num2 = Math.random() * 10; // 0 ~ 10 사이의 실수
 		System.out.println("num2: "+num2);
